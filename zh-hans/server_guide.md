@@ -28,7 +28,7 @@ BPMServer是一个C/S应用，使用TCP流模式传输数据。因此你无需�
 
 ## 启动服务器
 
-下载可执行文件后，您可以直接运行 `dotnet BPMServer.dll`，服务端程序将会自动创建2个必须目录：`package` 与 `dependency`，并初始化一个空的数据库 `package.db`。并自动生成一个默认配置文件 `config.cfg`，用于决定监听端口：
+下载可执行文件后，您可以直接运行`dotnet BPMServer.dll`，服务端程序将会自动创建2个必须目录：`package` 与 `dependency`，并初始化一个空的数据库`package.db`。并自动生成一个默认配置文件 `config.cfg`，用于决定监听端口：
 
 ```json
 {
@@ -37,7 +37,7 @@ BPMServer是一个C/S应用，使用TCP流模式传输数据。因此你无需�
 }
 ```
 
-如果您不想使用这些端口，您可以在运行 BPMServer.exe 之前提前配置好这个文件。或者是启动之后使用 `config`命令配置并重启 BPMServer
+如果您不想使用这些端口，您可以在运行BPMServer之前提前配置好这个文件。或者是启动之后使用 `config`命令配置并重启BPMServer
 
 ## 关闭服务器
 

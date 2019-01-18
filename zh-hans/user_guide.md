@@ -99,7 +99,7 @@ bpm采用的是参数输入的方式来工作的，也就是说程序运行一�
 * 第一次启动bpm会自动建立一系列文件夹，在任何时候都请勿删除这些文件夹
 * 执行`bpm update`之后会在本地得到一个`package.db`，请在任何时候都不要删除这个文件
 * 在安装任意一个包之后，会在本地得到一个`InstallRecord.db`，也请在任何时候都不要删除这个文件
-* bpm不会自动识别您已安装的 Ballance。相反，我们反而建议您在一台没有安装 Ballance 的计算机上先安装 bpm，或者是卸载现在安装过的 Ballance 转而安装 bpm，然后由 bpm 安装 Ballance，这样可使 bpm 得以管理一切，bpm 和会在启动的时候要求您输入一个存在文件夹的路径，bpm 会将所有游戏文件存储在那。如果您坚持使用您自己安装的 Ballance，也是可以的，您只需要在开头路径输入环节输入您的 Ballance 根目录即可，但请务必确保您的 Ballance 是英文原版，没有任何修改，否则任何命令执行时的错误，我都不会给予帮助支持。使用 bpm 安装 Ballance 的命令是`bpm install ballance@v1.13`
+* bpm不会自动识别您已安装的 Ballance。相反，我们反而建议您在一台没有安装 Ballance 的计算机上先安装 bpm，或者是卸载现在安装过的 Ballance 转而安装 bpm，然后由 bpm 安装 Ballance，这样可使 bpm 得以管理一切。您需要使用`bpm config GamePath xxx`先指定你想安装Ballance的文件夹，bpm 会将所有游戏文件存储在那。如果您坚持使用您自己安装的 Ballance，也是可以的，您只需要使用`bpm config GamePath xxx`将游戏地址设置为您的Ballance根目录即可，但请务必确保您的Ballance是英文原版，没有任何修改，否则任何命令执行时的错误，我都不会给予帮助支持。使用bpm安装 Ballance 的命令是`bpm install ballance@v1.13`
 * 针对上面一条，由于bpm现在处于公开测试阶段，暂时不提供Ballance本体下载操作，故请您务必安装一个完全原版的Ballance然后再使用`bpm config GamePath xxx`设置游戏地址
 * 默认语言为英语，使用`bpm config Language zh-cn`设置中文
 * 默认连接到 Ballance 资源总服务器，如果需要连接其它服务器，使用`bpm config Sources IP:Port`进行设置
