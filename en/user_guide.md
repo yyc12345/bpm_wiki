@@ -96,13 +96,13 @@ Command formation is `bpm command-name parameter-1 parameter-2 ...`. Input it in
 
 ## Attention
 
-* bpm will automatically establish some folders when it run firstly. Don't delete these folders in any case.
+* bpm will automatically establish some folders when it is run firstly. Don't delete these folders in any case.
 * You will get `package.db` after you execute `bpm update`. Don't delete it in any case.
 * You will get `InstallRecord.db` after you install a new package successfully. Don't delete it in any case.
-* bpm couldn't detect your installed Ballance. Oppositely, we suggest you should install bpm on the computer, which don't have Ballance or uninstall installed Ballance previously. And then, let bpm install Ballance for your computer. This will promise that bpm can control everything. You need to use `bpm config GamePath xxx` to point out the folder where you want to store Ballance in advance. bpm will store every of game files in that folder. If you insist that you need to use the Ballance installed on your own, you only need to use `bpm config GamePath xxx` and configure game path to be your Ballance root folder's path. But, you should make sure that your Ballance is original Ballance version, without any edition, otherwise we don't provide any support. The command of install Ballance in bpm is `bpm install ballance@v1.13`
+* bpm couldn't detect your installed Ballance. Oppositely, we suggest that you should install bpm on the computer, which don't have Ballance or uninstall installed Ballance previously. And then, let bpm install Ballance for your computer. This will promise that bpm can control everything. You need to use `bpm config GamePath xxx` to point out the folder where you want to store Ballance in advance. bpm will store every game files in that folder. If you insist that you need to use the Ballance installed on your own, you only need to use `bpm config GamePath xxx` and configure game path to be your Ballance root folder's path. But, you should make sure that your Ballance is original Ballance version, without any edition, otherwise we don't provide any support. The command of install Ballance in bpm is `bpm install ballance@v1.13`
 * For above statement, we don't provide the services of downloading Ballance currently because we are in BETA mode now.
 * Default language is English. Use `bpm config Language xxx` to change display language. We support `en-us` and `zh-cn` now.
-* In default, bpm will connect bpm global resources server. Use `bpm config Sources IP:Port` to change default settings if you wnat to connect other servers.
-* You should execute `bpm update` to update package database after run bpm firstly. And then, you can execute almost command.
+* In default, bpm will connect bpm global resources server. Use `bpm config Sources IP:Port` to change default settings if you want to connect other servers.
+* You should execute `bpm update` to update package database after running bpm firstly. And then, you can execute almost commands.
 * It is good on Windows environment that run bpm with admin permission. Especially your game is installed in system folder. Because bpm need change game files. bpm also need to change Registry to register Ballance when installing Ballance. Limited permission will result in some unexpected bugs and errors. We couldn't provide any help and undertake any result if you don't use admin permission.
 * bpm *might* not need `root` permission on Linux. But we are not clear about whether bpm need permission when use wine to install Ballance.
