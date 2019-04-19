@@ -1,0 +1,48 @@
+site_name: bpm Wiki
+nav:
+    - bpm Wiki: index.md
+    - 简体中文:
+        - '主页': 'zh-hans/MAIN.md'
+        - '用户手册': 'zh-hans/user_guide.md'
+        - '服务器手册': 'zh-hans/server_guide.md'
+        - '包构建手册': 'zh-hans/pack_guide.md'
+        - 'bpm网络协议手册': 'zh-hans/protocol_guide.md'
+    - English:
+        - 'Home Page': 'en/MAIN.md'
+        - 'User Guide': 'en/user_guide.md'
+        - 'Server Operation Manual': 'en/server_guide.md'
+        - 'Building Package Manual': 'en/pack_guide.md'
+        - 'bpm Network Protocol': 'en/protocol_guide.md'
+
+theme:
+  name: 'material'
+  font: false
+  palette:
+    primary: 'blue'
+    accent: 'blue'
+  language: 'en'
+  favicon: './img/favicon.ico'
+
+plugins: []
+
+markdown_extensions:
+  - admonition
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_javascript:
+  - ./javascript/website.js

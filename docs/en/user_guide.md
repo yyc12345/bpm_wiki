@@ -70,29 +70,38 @@ Command formation is `bpm command-name parameter-1 parameter-2 ...`. Input it in
 
 ## Command description
 
-* `list`
-  - `list`：List infomation of installed packages.
-* `update`
-  - `update`：Sync package database with bpm server.
-* `show`
-  - `show package-name`：Output specific package's info. Package-name need version.
-* `search`
-  - `search key-word-1 key-word-2 ...`：Search related package according to provided key words in database. It will seach package name and aka. You can provide more than one key words. The count of key words is unlimited.
-* `install`
-  - `install package-name`：Install specific package. Package-name can don't contain version(Install the lastest version automatically).
-* `remove`
-  - `remove package-name`：Remove specific package. Package-name can don't contain version(Remove all versions automatically).
-* `guide`
-  - `guide package-name`：Display specific package's help. Almost help will help you to comfirm the parameter of deploy. Package-name need version.
-* `deploy`
-  - `deploy package-name parameter`：Deploy a package. Such as map, bgm and so on. Package-name need version.
-* `clean`
-  - `clean`：Remove all cache files(Downloaded ZIP files and JSON files)
-  - `clean package-name`：Remove specific package's cache file. Package-name can don't contain version(Remove all versions'cache files automatically).
-* `config`
-  - `config`：List all settings item and its value
-  - `config item-name`：List specific item and its value
-  - `config item-name new-value`：Change specific item's value
+??? abstract "list"
+    - `list`：List infomation of installed packages.
+
+??? abstract "update"
+    - `update`：Sync package database with bpm server.
+
+??? abstract "show"
+    - `show package-name`：Output specific package's info. Package-name need version.
+
+??? abstract "search"
+    - `search key-word-1 key-word-2 ...`：Search related package according to provided key words in database. It will seach package name and aka. You can provide more than one key words. The count of key words is unlimited.
+
+??? abstract "install"
+    - `install package-name`：Install specific package. Package-name can don't contain version(Install the lastest version automatically).
+
+??? abstract "remove"
+    - `remove package-name`：Remove specific package. Package-name can don't contain version(Remove all versions automatically).
+
+??? abstract "guide"
+    - `guide package-name`：Display specific package's help. Almost help will help you to comfirm the parameter of deploy. Package-name need version.
+
+??? abstract "deploy"
+    - `deploy package-name parameter`：Deploy a package. Such as map, bgm and so on. Package-name need version.
+
+??? abstract "clean"
+    - `clean`：Remove all cache files(Downloaded ZIP files and JSON files)
+    - `clean package-name`：Remove specific package's cache file. Package-name can don't contain version(Remove all versions'cache files automatically).
+
+??? abstract "config"
+    - `config`：List all settings item and its value
+    - `config item-name`：List specific item and its value
+    - `config item-name new-value`：Change specific item's value
 
 ## Attention
 
