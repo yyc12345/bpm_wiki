@@ -5,8 +5,9 @@ site_url: 'https://yyc12345.github.io/bpm_wiki/'
 
 repo_name: 'yyc12345/bpm'
 repo_url: 'https://github.com/yyc12345/bpm'
+edit_uri: ''
 
-copyright: 'Text is available under the CC-BY-NC-SA 4.0. Supported by BearKidsTeam.'
+copyright: 'Text is available under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA 4.0</a>. Supported by <a href="https://github.com/BearKidsTeam">BearKidsTeam</a>.'
 
 nav:
     - bpm Wiki: index.md
