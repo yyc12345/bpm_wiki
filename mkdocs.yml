@@ -1,4 +1,13 @@
 site_name: bpm Wiki
+site_description: 'The wiki page served for bpm'
+site_author: 'yyc12345'
+site_url: 'https://yyc12345.github.io/bpm_wiki/'
+
+repo_name: 'yyc12345/bpm'
+repo_url: 'https://github.com/yyc12345/bpm'
+
+copyright: 'Text is available under the CC-BY-NC-SA 4.0. Supported by BearKidsTeam.'
+
 nav:
     - bpm Wiki: index.md
     - 简体中文:
@@ -18,12 +27,23 @@ theme:
   name: 'material'
   font: false
   palette:
-    primary: 'blue'
-    accent: 'blue'
+    primary: teal
+    accent: teal
   language: 'en'
   favicon: './img/favicon.ico'
+  feature:
+    tabs: true
+  logo:
+    icon: 'book'
 
 plugins: []
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/yyc12345/bpm_wiki'
+    - type: 'discord'
+      link: 'https://discord.gg/hyarMPm'
 
 markdown_extensions:
   - admonition
