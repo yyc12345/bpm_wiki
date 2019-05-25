@@ -16,12 +16,14 @@ nav:
         - '用户手册': 'zh-hans/user_guide.md'
         - '服务器手册': 'zh-hans/server_guide.md'
         - '包构建手册': 'zh-hans/pack_guide.md'
+        - '数据库指南': 'zh-hans/database.md'
         - 'bpm网络协议手册': 'zh-hans/protocol_guide.md'
     - English:
         - 'Home Page': 'en/MAIN.md'
         - 'User Guide': 'en/user_guide.md'
         - 'Server Operation Manual': 'en/server_guide.md'
         - 'Building Package Manual': 'en/pack_guide.md'
+        - 'Database Guide': 'en/database.md'
         - 'bpm Network Protocol': 'en/protocol_guide.md'
 
 theme:
